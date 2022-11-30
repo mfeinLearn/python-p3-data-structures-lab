@@ -39,5 +39,5 @@ def get_average_heat_level(spicy_foods):
     placeholder = []
     for food in spicy_foods:
         placeholder.append(food["heat_level"])
-
     return sum(placeholder)/len(spicy_foods)
+    # return sum([food["heat_level"] for food in spicy_foods]) / len(spicy_foods)
